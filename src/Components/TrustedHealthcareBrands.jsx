@@ -37,7 +37,7 @@ const TrustedHealthcareBrands = () => {
             ].map((hospital, index) => (
               <div
                 key={index}
-                className="bg-gray-100 p-4 rounded-xl shadow-md w-40 text-center"
+                className="bg-gray-100 p-4 rounded-xl shadow-md w-35 text-center"
               >
                 <img
                   src={hospital.img}
@@ -81,7 +81,7 @@ const TrustedHealthcareBrands = () => {
             ].map((hospital, index) => (
               <div
                 key={index}
-                className="bg-gray-100 p-4 rounded-xl shadow-md w-40 text-center"
+                className="bg-gray-100 p-4 rounded-xl shadow-md w-35 text-center"
               >
                 <img
                   src={hospital.img}
@@ -125,7 +125,7 @@ const TrustedHealthcareBrands = () => {
             ].map((hospital, index) => (
               <div
                 key={index}
-                className="bg-gray-100 p-4 rounded-xl shadow-md w-40 text-center"
+                className="bg-gray-100 p-4 rounded-xl shadow-md w-35 text-center"
               >
                 <img
                   src={hospital.img}
@@ -169,7 +169,7 @@ const TrustedHealthcareBrands = () => {
             ].map((hospital, index) => (
               <div
                 key={index}
-                className="bg-gray-100 p-4 rounded-xl shadow-md w-40 text-center"
+                className="bg-gray-100 p-4 rounded-xl shadow-md w-35 text-center"
               >
                 <img
                   src={hospital.img}

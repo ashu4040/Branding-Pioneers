@@ -50,7 +50,7 @@ export default function MeetTheMasters() {
           >
             {/* Tilted Image */}
             <div
-              className={`relative transition-transform duration-300 hover:scale-105 hover:rotate-0`}
+              className={`relative  duration-300 hover:scale-105 hover:rotate-0`}
             >
               <img
                 src={founder.image}
@@ -109,7 +109,7 @@ export default function MeetTheMasters() {
           consultation today and discover how our experts can unlock your growth
           potential.
         </p>
-        <button className="mt-4 bg-white text-purple-700 px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-100 transition">
+        <button className="mt-4 bg-white text-purple-700 px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-100">
           Let’s Get Started →
         </button>
       </div>

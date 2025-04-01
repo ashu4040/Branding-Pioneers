@@ -17,17 +17,17 @@ export default function MedicalIndustryUI() {
       {/* Grid Container */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10  ">
         {[
-          { icon: "\uD83C\uDFE5", label: "Cosmetic Surgery and Aesthetics" },
-          { icon: "\uD83E\uDDBE", label: "Hair Restoration" },
-          { icon: "\uD83D\uDC76", label: "Plastic Surgery" },
-          { icon: "\uD83C\uDFE1", label: "IVF & Fertility" },
-          { icon: "\uD83E\uDDEC", label: "Dental Care" },
-          { icon: "\uD83E\uDDBA", label: "Orthopaedic" },
+          { icon: "🩷", label: "Cosmetic Surgery and Aesthetics" },
+          { icon: "👀", label: "Hair Restoration" },
+          { icon: "🥰", label: "Plastic Surgery" },
+          { icon: "🏥", label: "IVF & Fertility" },
+          { icon: "🏥", label: "Dental Care" },
+          { icon: "🚑", label: "Orthopaedic" },
           {
-            icon: "\uD83C\uDFE2",
+            icon: "🚑",
             label: "Multispeciality Clinics & Hospitals",
           },
-          { icon: "\uD83C\uDFE1", label: "IVF & Fertility" },
+          { icon: "🚁", label: "IVF & Fertility" },
         ].map((item, index) => (
           <div
             key={index}

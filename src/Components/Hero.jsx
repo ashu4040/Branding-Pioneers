@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-around p-8 bg-purple-50">
       {/* Text Content */}
-      <div className="max-w-lg space-y-4 gap-x-8 ">
+      <div className="max-w-lg space-y-4  ">
         <h1 className="text-2xl xl:text-4xl font-bold text-purple-700 flex flex-col text-center justify-center">
           <span>We provide Digital Solutions</span>{" "}
           <span>for Hospitals, Doctors & </span> <span> Clinics</span>
@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
 
       {/* Form Section */}
-      <div className="bg-white p-6 rounded-lg sm:ml-4 xl:ml-0 xl:w-full max-w-md shadow-2xl border-t-5 border-t-purple-600 mt-10 sm:mt-0 md:mt-10">
+      <div className="bg-white p-6 rounded-lg  max-w-md shadow-2xl border-t-5 border-t-purple-600 mt-10 ">
         <h2 className="text-xl font-bold text-gray-800">
           Let's Grow Your Practice Today
         </h2>

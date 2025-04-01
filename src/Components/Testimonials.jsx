@@ -1,18 +1,6 @@
-import React, { useState } from "react";
 import Form from "./Form";
 
 const Testimonial = () => {
-  const [form, setForm] = useState({
-    fullName: "",
-    phone: "",
-    service: "",
-    budget: "",
-  });
-
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
-
   const testimonials = [
     {
       name: "Dr. Kaushal Yadav, Surgical Oncologist",

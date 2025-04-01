@@ -16,10 +16,6 @@ export default function HealthcareMarketing() {
       icon: "https://img.icons8.com/ios/48/trust.png",
       title: "Campaign Launch",
     },
-    // {
-    //   icon: "https://img.icons8.com/ios/48/phone.png",
-    //   title: "Track & Optimize",
-    // },
   ];
 
   return (
@@ -49,7 +45,7 @@ export default function HealthcareMarketing() {
       </div>
 
       <div className="text-center mt-10">
-        <button className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-700 transition">
+        <button className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-700">
           Transform Your Brand →
         </button>
       </div>
