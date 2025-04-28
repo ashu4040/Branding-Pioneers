@@ -1,10 +1,10 @@
 import React from "react";
-import MeetTheMasters from "../Components/MeetTheMaster";
+import Testimonial from "../Components/Testimonials";
 
 const Page6 = () => {
   return (
     <div>
-      <MeetTheMasters />
+      <Testimonial />
     </div>
   );
 };

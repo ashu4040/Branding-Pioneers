@@ -1,34 +1,13 @@
 import Form from "./Form";
 
 const Testimonial = () => {
-  const testimonials = [
-    {
-      name: "Dr. Kaushal Yadav, Surgical Oncologist",
-      description:
-        "He is sharing his experience with Branding Pioneers Digital Marketing Services.",
-      videoUrl: "https://www.youtube.com/embed/aDwPZw4a2U0", // Updated URL
-    },
-    {
-      name: "Dental Client",
-      description:
-        "Director of The Academy of Dental Excellence sharing his experience.",
-      videoUrl: "https://www.youtube.com/embed/aDwPZw4a2U0",
-    },
-    {
-      name: "Dr. Manish Kulshreshtha, MBBS, MS - General Surgery",
-      description:
-        "Dr. Manish has seen a significant increase in online visibility.",
-      videoUrl: "https://www.youtube.com/embed/aDwPZw4a2U0",
-    },
-  ];
-
   const faqs = [
-    "How do you ensure results for healthcare brands?",
-    "Can you help with both online and offline marketing?",
-    "Do you offer customized marketing plans?",
-    "Can you work with a limited marketing budget?",
-    "Is there a minimum budget to get started?",
-    "How do you track and report campaign performance?",
+    "What IT services do you offer?",
+    "How do you ensure the security of my business data?",
+    "Do you offer customized software solutions?",
+    "Can you help with cloud migration?",
+    "What industries do you specialize in?",
+    "How do you handle support and maintenance for your IT solutions?",
   ];
 
   return (
@@ -37,22 +16,10 @@ const Testimonial = () => {
         Our Clients Love Us
       </h2>
       <p className="text-center text-gray-600 mb-8">
-        Helping them grow their practice is what we do best!
+        Helping businesses transform with cutting-edge IT solutions!
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-        {testimonials.map((testimonial, index) => (
-          <div key={index} className="p-4 bg-white shadow-lg rounded-lg">
-            <iframe
-              src={testimonial.videoUrl}
-              className="w-full h-48 rounded-lg"
-              allowFullScreen
-            ></iframe>
-            <h3 className="mt-4 font-semibold">{testimonial.name}</h3>
-            <p className="text-sm text-gray-600">{testimonial.description}</p>
-          </div>
-        ))}
-      </div>
+      {/* Removed Testimonials Section */}
 
       <div className="flex flex-col md:flex-row justify-between gap-6">
         <div className="md:w-1/2">
@@ -66,7 +33,8 @@ const Testimonial = () => {
                   {question}
                 </summary>
                 <p className="text-gray-600 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  We provide comprehensive answers tailored to your business
+                  needs, ensuring the highest standards of service and security.
                 </p>
               </details>
             ))}
@@ -75,16 +43,16 @@ const Testimonial = () => {
 
         <div className="bg-white p-6 rounded-lg shadow-2xl border-t-5 border-t-purple-600 md:w-1/2 max-w-md">
           <h2 className="text-xl font-bold text-gray-800">
-            Transform Your Health Care Brand
+            Transform Your IT Infrastructure
           </h2>
           <Form />
         </div>
       </div>
 
       <footer className="mt-12 py-6 bg-gray-200 text-center">
-        <h4 className="text-lg font-semibold">Branding Pioneers</h4>
+        <h4 className="text-lg font-semibold">UPLIFT SOLUTION</h4>
         <p className="text-gray-600">
-          Redefining healthcare success with innovative web solutions.
+          Empowering businesses with innovative IT solutions and support.
         </p>
         <div className="flex justify-center items-center gap-4 mt-4">
           <div className="flex items-center gap-2">📞 +91 98187 80337</div>

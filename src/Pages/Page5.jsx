@@ -1,12 +1,10 @@
 import React from "react";
-import HealthcareMarketing from "../Components/HealthCareMarketing";
-import MarketingPoints from "../Components/MarketingPoints";
+import WhyChooseUs from "../Components/WhyChooseUs";
 
 const Page5 = () => {
   return (
     <div>
-      <HealthcareMarketing />
-      <MarketingPoints />
+      <WhyChooseUs />
     </div>
   );
 };

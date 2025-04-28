@@ -33,6 +33,16 @@ const Form = () => {
           onChange={handleChange}
           className="w-full p-2 border border-gray-300 rounded-md"
         />
+
+        <p className="text-purple-600 pt-4">Email</p>
+        <input
+          type="text"
+          name="budget"
+          placeholder="Email"
+          value={form.budget}
+          onChange={handleChange}
+          className="w-full p-2 border border-gray-300 rounded-md"
+        />
         <p className="text-purple-600 pt-4">Services</p>
         <select
           name="service"
@@ -41,20 +51,12 @@ const Form = () => {
           className="w-full p-2 border border-gray-300 rounded-md"
         >
           <option>Select Services</option>
-          <option>Male Doctor</option>
-          <option>Female Doc</option>
+          <option>Web Development</option>
+          <option>App Development</option>
+          <option>Cloud Servicve</option>
         </select>
-        <p className="text-purple-600 pt-4">Estimated monthly budget</p>
-        <input
-          type="text"
-          name="budget"
-          placeholder="Estimated Monthly Budget"
-          value={form.budget}
-          onChange={handleChange}
-          className="w-full p-2 border border-gray-300 rounded-md"
-        />
         <button className="w-full bg-purple-700 text-white p-2 rounded-md mt-4">
-          Schedule a Free Consultation
+          Submit
         </button>
       </form>
     </div>

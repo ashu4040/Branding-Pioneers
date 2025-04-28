@@ -1,10 +1,10 @@
 import React from "react";
-import MedicalIndustryUI from "../Components/MedicalIndustry";
+import ITSectorsUI from "../Components/ITIndustry";
 
 const Page3 = () => {
   return (
     <div>
-      <MedicalIndustryUI />
+      <ITSectorsUI />
     </div>
   );
 };

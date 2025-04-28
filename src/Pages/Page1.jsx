@@ -10,7 +10,6 @@ export default function Page1() {
       {/*Hero Section */}
       <Hero />
       {/* Trusted Healthcare Brands */}
-      <TrustedHealthcareBrands />
     </div>
   );
 }

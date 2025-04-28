@@ -1,12 +1,12 @@
 import React from "react";
-import FeaturedCaseStudies from "../Components/FeaturedCaseStudies";
+import Services from "../Components/Services";
 
 const Page2 = () => {
   return (
     <div>
       {/* FeaturedCaseStudies */}
 
-      <FeaturedCaseStudies />
+      <Services />
     </div>
   );
 };

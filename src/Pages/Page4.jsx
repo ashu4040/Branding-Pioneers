@@ -1,10 +1,10 @@
 import React from "react";
-import ServicesGrid from "../Components/ServiceGrid";
+import HowItWorks from "../Components/HowItWorks";
 
 const Page4 = () => {
   return (
     <div>
-      <ServicesGrid />
+      <HowItWorks />
     </div>
   );
 };
